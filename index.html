@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap components</title>
+    <!-- bootstrap css links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <!-- bootstrap icon link -->
+    <link rel="stylesheet" href="vector/bootstrap-icons.css">
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="f_awesome/all.css">
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#nav_e">
+
+    <div class="container-fluid">
+      <div class="accordion accordion-flush" id="acc_ex">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush_h">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f_collapse" aria-expanded="false" aria-controls="f_collapse">
+             Components
+            </button>
+          </h2>
+          <div id="f_collapse" class="accordion-collapse collapse" aria-labelledby="flush_h" data-bs-parent="#acc_ex">
+            <div class="accordion-body">
+        
+          <!-- icons -->
+
+          <div class="container">
+            <h1>Icons</h1>
+                <hr class="border border-success border-2">
+                <!-- bootstrap icon -->
+            <i class="bi bi-browser-chrome i_custom"></i>
+            
+            <!-- fontawesome icons -->
+            <i class="fa-solid fa-s  bg-warning i_custom text-success"></i>
+            <i class="fa-solid fa-u  bg-info i_custom"></i>
+            <i class="fa-solid fa-m  bg-warning i_custom text-success"></i>
+            <i class="fa-solid fa-a  bg-info i_custom"></i>
+            <i class="fa-solid fa-i  bg-warning i_custom text-success"></i>
+            <i class="fa-solid fa-y  bg-info i_custom"></i>
+            <i class="fa-solid fa-a  bg-warning i_custom text-success"></i>
+        
+          </div>
+
+                    <!-- modals -->
+                    <div class="container">
+                      <h1>Modal</h1>
+                <hr class="border border-success border-2">
+                      <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#m_example">
+            Modal Example
+          </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="m_example" tabindex="-1" aria-labelledby="m_exampleLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="m_exampleLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem deleniti dicta minus 
+                      dolorem totam voluptates! Aspernatur sequi id adipisci rerum.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-info" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+    <section class="flush">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <!-- Flush -->
+                <h1>Accordion Flush</h1>
+                <hr class="border border-success border-2">
+                <div class="accordion accordion-flush" id="acc_flush">
+
+                    <!-- item1 -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="F_heading1">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#F_collapse1" aria-expanded="false" aria-controls="F_collapse1">
+                          Accordion Item #1
+                        </button>
+                      </h2>
+                      <div id="F_collapse1" class="accordion-collapse collapse" aria-labelledby="F_heading1" data-bs-parent="#acc_flush">
+                        <div class="accordion-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit vel atque 
+                                dolorum rem odit iure voluptas cumque nulla dolorem id quos inventore quasi vero 
+                                laboriosam beatae, aperiam perferendis consequuntur est delectus ab? Ducimus nisi 
+                                ratione reiciendis harum, odio, quibusdam adipisci eaque officia voluptatem 
+                                exercitationem culpa, asperiores pariatur dolorem cum sit.</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- item2 -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="F_heading2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#F_collapse2" aria-expanded="false" aria-controls="F_collapse2">
+                          Accordion Item #2
+                        </button>
+                      </h2>
+                      <div id="F_collapse2" class="accordion-collapse collapse" aria-labelledby="F_heading2" data-bs-parent="#acc_flush">
+                        <div class="accordion-body">
+                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit vel atque 
+                                dolorum rem odit iure voluptas cumque nulla dolorem id quos inventore quasi vero 
+                                laboriosam beatae, aperiam perferendis consequuntur est delectus ab? Ducimus nisi 
+                                ratione reiciendis harum, odio, quibusdam adipisci eaque officia voluptatem 
+                                exercitationem culpa, asperiores pariatur dolorem cum sit.</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- item3 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="F_heading3">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#F_collapse3" aria-expanded="false" aria-controls="F_collapse3">
+                            Accordion Item #3
+                          </button>
+                        </h2>
+                        <div id="F_collapse3" class="accordion-collapse collapse" aria-labelledby="F_heading3" data-bs-parent="#acc_flush">
+                          <div class="accordion-body">
+                                <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit vel atque 
+                                    dolorum rem odit iure voluptas cumque nulla dolorem id quos inventore quasi vero 
+                                    laboriosam beatae, aperiam perferendis consequuntur est delectus ab? Ducimus nisi 
+                                    ratione reiciendis harum, odio, quibusdam adipisci eaque officia voluptatem 
+                                    exercitationem culpa, asperiores pariatur dolorem cum sit.</p></div>
+                        </div>
+                      </div>
+
+                      <!-- item4 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="F_heading4">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#F_collapse4" aria-expanded="false" aria-controls="F_collapse4">
+                            Accordion Item #4
+                          </button>
+                        </h2>
+                        <div id="F_collapse4" class="accordion-collapse collapse" aria-labelledby="F_heading4" data-bs-parent="#acc_flush">
+                          <div class="accordion-body">
+                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit vel atque 
+                                dolorum rem odit iure voluptas cumque nulla dolorem id quos inventore quasi vero 
+                                laboriosam beatae, aperiam perferendis consequuntur est delectus ab? Ducimus nisi 
+                                ratione reiciendis harum, odio, quibusdam adipisci eaque officia voluptatem 
+                                exercitationem culpa, asperiores pariatur dolorem cum sit.</p>
+                          </div>
+                        </div>
+                      </div>
+                    
+
+                <!-- Flush -->
+
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+                    <section class="alert">
+                        <div class="container">
+                            <!-- simple alert -->
+                            <h1>Simple Alert Massage</h1>
+                            <hr class="border border-success border-2">
+                            <div class="alert alert-warning" role="alert">
+                                A simple warning alert—check it out!
+                            </div>
+                            <!-- simple alert -->
+
+                            <!-- link added -->
+                            <h2>Alert link</h2>
+                            <hr class="border border-success border-2">
+                            <div class="alert alert-danger" role="alert">
+                                A simple warning <a href="#" class="alert-link"> alert_check </a>it out!
+                            </div>
+
+                            <!-- Additional content  -->
+                            <h2>Additional Content</h2>
+                            <hr class="border border-success border-2">
+                            <div class="alert alert-success" role="alert">
+                                <h4 class="alert-heading">Well done!</h4>
+                                <p>Aww yeah, you successfully read this important alert message. 
+                                This example text is going to run a bit longer so that you can see how spacing within 
+                                an alert works with this kind of content.</p>
+                                <hr>
+                                <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+                            </div>
+
+                            <!-- Dismissing -->
+                            <h2>Dismissing</h2>
+                            <hr class="border border-success border-2">
+                            <div class="alert alert-dark alert-dismissible fade show" role="alert">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, repellendus!</p>
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+
+
+                        </div>
+                    </section>
+                    
+            <!-- breadcrumb -->
+            <section class="breadcrumb">
+                <div class="container">
+                    <h2>Breadcrumb</h2>
+                    <hr class="border border-success border-2">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Library</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Data</li>
+                        </ol>
+                    </nav>
+                </div>
+                </section>
+
+                <!-- card -->
+                <section class="faq">
+                  <div class="container">
+                    <h2>Card</h2>
+                    <hr class="border border-success border-2">
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <div class="card mb-3">
+                          <div class="card-header">
+                            <ul class="list-inline">
+                              <li class="list-inline-item"><i class="bi bi-flower1 i_custom"></i></li>
+                              <li class="list-inline-item"><i class="bi bi-flower2 i_custom"></i></li>
+                            </ul>
+                          </div>
+                          <div class="card-body">
+                          <img src="images/rose.jpg" class="card-img-top" alt="">
+                          <h1>This is h1 text</h1>
+                          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, itaque!</p>
+                        </div>
+                        <div class="card-footer">
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+                <!-- button -->
+                <div class="container">
+                    <button type="button" class="btn btn-outline-secondary w-100">Submit</button>
+                </div>
+
+                <!-- carousel -->
+                <section class="carousel">
+                    <div class="container">
+                        <h2>Carousel</h2>
+                    <hr class="border border-success border-2">
+                        <div id="c_captions" class="carousel slide" data-bs-ride="false">
+                          <!-- carousel-indicators -->
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#c_captions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#c_captions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#c_captions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <!-- item1 -->
+                              <div class="carousel-item active"data-bs-interval="10000">
+                                <img src="images/black.jpg" class="d-block w-100" alt="black">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h2>First slide</h2>
+                                  <p>First slide contents</p>
+                                </div>
+                              </div>
+                              <!-- item2 -->
+                              <div class="carousel-item">
+                                <img src="images/black.jpg" class="d-block w-100" alt="black">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h2>Second slide</h2>
+                                  <p>Second slide contents</p>
+                                </div>
+                              </div>
+                              <!-- item3 -->
+                              <div class="carousel-item">
+                                <img src="images/black.jpg" class="d-block w-100" alt="black">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h2>Third slide</h2>
+                                  <p>Third slide contents</p>
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#c_captions" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#c_captions" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                </section>
+
+                <!-- collapse -->
+                <div class="container">
+                <h2>Collapse</h2>
+                <hr class="border border-success border-2">
+                    
+                <div>
+                  <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+                  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
+                  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="collapse multi-collapse" id="multiCollapseExample1">
+                      <div class="card card-body">
+                        Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="collapse multi-collapse" id="multiCollapseExample2">
+                      <div class="card card-body">
+                        Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+                <!-- badge -->
+                    <div class="container">
+                        <h2>Badge</h2>
+                <hr class="border border-success border-2">
+                        <button type="button" class="btn btn-primary position-relative">
+                            Inbox
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            99+
+                            <span class="visually-hidden">unread messages</span>
+                            </span>
+                        </button>
+                    </div>
+
+                    <!-- dropdown -->
+                    <div class="container">
+                      <h2>Dropdown</h2>
+              <hr class="border border-success border-2">
+                    <div class="dropdown">
+                      <button class="btn btn-warning text-danger dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown button
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">item1</a></li>
+                        <li><a class="dropdown-item" href="#">item2</a></li>
+                        <li><a class="dropdown-item" href="#">item3</a></li>
+                      </ul>
+                    </div>
+                    </div>
+              
+                    <!-- javascript nav -->
+                    <div class="container">
+                      <h2>Nav</h2>
+              <hr class="border border-success border-2">
+                      <div class="d-flex align-items-start">
+                        <div class="nav flex-column nav-pills me-3" id="v-tab" role="tablist" aria-orientation="vertical">
+                          <button class="nav-link active" id="v_h_tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</button>
+                          <button class="nav-link" id="v_p_tab" data-bs-toggle="pill" data-bs-target="#v_profile" type="button" role="tab" aria-controls="v_profile" aria-selected="false">Profile</button>
+                          <button class="nav-link" id="v_d_tab" data-bs-toggle="pill" data-bs-target="#v_disable" type="button" role="tab" aria-controls="v_disable" aria-selected="false" disabled>Disabled</button>
+                          <button class="nav-link" id="v_m_tab" data-bs-toggle="pill" data-bs-target="#v_massages" type="button" role="tab" aria-controls="v_massages" aria-selected="false">Messages</button>
+                          <button class="nav-link" id="v_s_tab" data-bs-toggle="pill" data-bs-target="#v_settings" type="button" role="tab" aria-controls="v_settings" aria-selected="false">Settings</button>
+                        </div>
+                        <div class="tab-content" id="v-tabContent">
+                          <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v_h_tab" tabindex="0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, maxime!</div>
+                          <div class="tab-pane fade" id="v_profile" role="tabpanel" aria-labelledby="v_p_tab" tabindex="0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet, culpa.</div>
+                          <div class="tab-pane fade" id="v_disable" role="tabpanel" aria-labelledby="v_d_tab" tabindex="0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, consectetur.</div>
+                          <div class="tab-pane fade" id="v_massages" role="tabpanel" aria-labelledby="v_m_tab" tabindex="0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, quasi?</div>
+                          <div class="tab-pane fade" id="v_settings" role="tabpanel" aria-labelledby="v_s_tab" tabindex="0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, reiciendis.</div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- offcanvas -->
+                    <div class="container">
+                      <h2>Static backdrop</h2>
+                      <hr class="border border-success border-2">
+                      <button class="btn btn-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#static_b" aria-controls="static_b">
+                        Toggle static offcanvas
+                      </button>
+                      
+                      <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="static_b" aria-labelledby="static_bLabel">
+                        <div class="offcanvas-header">
+                          <h5 class="offcanvas-title" id="static_bLabel">Offcanvas</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                          <div>
+                            I will not close if you click outside of me.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- scrollspy -->
+                    <div class="container">
+                      <h2>Scrollspy</h2>
+                      <hr class="border border-success border-2">
+                      <nav id="nav_e" class="navbar bg-light px-3 mb-3">
+                        <a class="navbar-brand" href="#">Navbar</a>
+                        <ul class="nav nav-pills">
+                          <li class="nav-item">
+                            <a class="nav-link" href="#scrollspyHeading1">First</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#scrollspyHeading2">Second</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+                              <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </nav>
+                      <div data-bs-spy="scroll" data-bs-target="#nav_e" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
+                        <h4 id="scrollspyHeading1">First heading</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam unde est sint, 
+                          iste dolorum similique quam eius dicta perferendis quaerat.</p>
+                        <h4 id="scrollspyHeading2">Second heading</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam unde est sint, 
+                          iste dolorum similique quam eius dicta perferendis quaerat.</p>
+                        <h4 id="scrollspyHeading3">Third heading</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam unde est sint, 
+                          iste dolorum similique quam eius dicta perferendis quaerat.</p>
+                        <h4 id="scrollspyHeading4">Fourth heading</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam unde est sint, 
+                          iste dolorum similique quam eius dicta perferendis quaerat.</p>
+                        <h4 id="scrollspyHeading5">Fifth heading</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam unde est sint, 
+                          iste dolorum similique quam eius dicta perferendis quaerat.</p>
+                      </div>
+                    </div>
+
+                    <!-- pagination -->
+                    <section>
+                      <div class="container">
+                        <h2>Pagination</h2>
+                      <hr class="border border-success border-2">
+                        <nav aria-label="Page navigation example">
+                          <ul class="pagination mt-3">
+                            <li class="page-item">
+                              <a class="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                              </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                            <li class="page-item"><a class="page-link" href="#">5</a></li>
+                            <li class="page-item">
+                              <a class="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                              </a>
+                            </li>
+                          </ul>
+                        </nav>
+                      </div>
+                    </section>
+
+                    <!-- tooltips -->
+                    <section>
+                      <div class="container">
+                        <h2>Tolltips</h2>
+                      <hr class="border border-success border-2">
+                        <p class="muted">Placeholder text to demonstrate some 
+                          <a href="#" data-bs-toggle="tooltip" data-bs-title="Default tooltip">inline links</a> 
+                          with tooltips. This is now just filler, no killer. Content placed here just to mimic 
+                          the presence of <a href="#" data-bs-toggle="tooltip" data-bs-title="Another tooltip">
+                            real text</a>. And all that just to give you an idea of how tooltips would look when 
+                            used in real-world situations. So hopefully you've now seen how 
+                            <a href="#" data-bs-toggle="tooltip" data-bs-title="Another one here too">
+                              these tooltips on links</a> can work in practice, once you use them on 
+                              <a href="#" data-bs-toggle="tooltip" data-bs-title="The last tip!">your own</a> 
+                              site or project.
+                        </p>
+                      </div>
+                    </section>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+          <!-- utilities -->
+          <div class="container-fluid">
+            <div class="accordion accordion-flush" id="acc_ex2">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush_h1">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f_collapse1" aria-expanded="false" aria-controls="f_collapse1">
+                  Utilities
+                  </button>
+                </h2>
+                <div id="f_collapse1" class="accordion-collapse collapse" aria-labelledby="flush_h1" data-bs-parent="#acc_ex2">
+                  <div class="accordion-body">
+
+
+                    <!-- border -->
+                    <div class="container">
+                      <h1>Border</h1>
+                      <div class=" me-3 box border border-5 border-info border-end-0 float-start"></div>
+                      <div class="me-3 box border border-3 border-secondary rounded-top float-start"></div>
+                      <img src="images/rose.jpg" class="rounded-circle" alt="rose">
+                    </div>
+
+                    <!-- opacity -->
+                    <section>
+                    <div class="container">
+                      <h2>Opacity</h2>
+                      <hr class="border border-success border-2">
+                      <div class="row">
+                        <div class="col-lg-3">
+                          <div class="opacity-100"><div class="box1">100%</div></div>
+                          <div class="opacity-75"><div class="box1">75%</div></div>
+                          <div class="opacity-50"><div class="box1">50%</div></div>
+                          <div class="opacity-25"><div class="box1">25%</div></div>
+                        </div>
+                     
+                    </div>
+                    </div>
+                  </section>
+
+                  <!-- shadow -->
+                  <section>
+                    <div class="container">
+                      <h2>shadow</h2>
+                      <hr class="border border-success border-2">
+                      <div class="shadow-sm p-3 mb-5 bg-body rounded">Small shadow</div>
+                      <div class="shadow p-3 mb-5 bg-body rounded">Regular shadow</div>
+                      <div class="shadow-lg p-3 mb-5 bg-body rounded">Larger shadow</div>
+                    </div>
+                  </section>
+
+
+                    </div>
+                    </div>
+                    </div>  
+                    </div> 
+                    </div>  
+    
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
